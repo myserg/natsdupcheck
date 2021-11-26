@@ -3,6 +3,7 @@ package main
 import (
 	"flag"
 	"fmt"
+	"github.com/nats-io/nats.go"
 	"log"
 	"math/rand"
 	"os"
@@ -11,7 +12,6 @@ import (
 	"sync"
 	"sync/atomic"
 	"time"
-	"github.com/nats-io/nats.go"
 )
 
 func main() {
